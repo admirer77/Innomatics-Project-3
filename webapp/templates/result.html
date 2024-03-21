@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Result</title>
+
+    <link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename='result.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="d-flex flex-column justify-content-center a1-c1">
+        <h1 style="text-align: center; color: aliceblue; text-shadow:2px 2px 8px #5c2636;">Sentiment Result</h1>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="a1-c11">
+                <div>
+                    <h1 style="margin-bottom: 20px; font-size: 100px;">{{ result }}</h1>
+                </div>
+                <form action="/index">
+                    <input type="submit" value="Back" class="btn btn-secondary"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Flask
+spacy
+regex
+nltk
+pickle5
+inflect
+joblib
+numpy
+scikit-learn

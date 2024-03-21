@@ -1,0 +1,19 @@
+.a1-c1{
+    background-color: black;
+    height: 100vh;
+    
+}
+.a1-c11{
+    background:linear-gradient(45deg,#000000,#370b24);
+    padding:40px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 30px;
+    color: #e8114a;
+    font-family: cursive;
+    margin: 10px;
+    box-shadow: 0px 0px 1000px rgb(255, 19, 102);
+    
+}
+
+

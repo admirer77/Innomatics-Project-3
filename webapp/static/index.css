@@ -1,0 +1,35 @@
+.a1-c1{
+    background-color: black;
+    height: 100vh;
+    
+}
+.a1-c11{
+    background:linear-gradient(45deg,rgb(0, 0, 0),#16393d);
+    padding:40px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 30px;
+    color: rgb(155, 233, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    box-shadow: 0px 0px 1000px rgb(19, 220, 255) ;
+}
+
+
+.a1-f11{
+    color: #19283a;
+    background:linear-gradient(45deg,#4bd8ff,#1d77ff);
+    width: 30vw;
+    border:0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.a1-f11::placeholder{
+    color: #b0d4f6;
+}
